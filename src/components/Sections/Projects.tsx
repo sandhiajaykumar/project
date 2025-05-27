@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import eduSwapImage from '../components/Sections/Screenshot (194).png';
+
 
 type Project = {
   id: number;
@@ -25,7 +27,7 @@ const projects: Project[] = [
     id: 2,
     title: 'Edu-Swap',
     description: 'A productivity application for managing tasks, projects, and team collaboration with real-time updates.',
-    image: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'src\components\Sections\Screenshot (194).png',
     tags: ['React.js', 'Firebase', 'Tailwind CSS'],
     githubUrl: 'https://github.com/sandhiajaykumar/eduswap-main',
     liveUrl: 'Edu-swap.netlify.app',

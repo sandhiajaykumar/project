@@ -39,6 +39,12 @@ const Hero: React.FC = () => {
               >
                 Contact Me
               </a>
+              <a 
+                href="src\components\Sections\AJAY RESUME.pdf" 
+                className="group px-6 py-3 border-2 border-gray-300 dark:border-gray-700 hover:border-blue-500 dark:hover:border-blue-500 text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 font-medium rounded-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm"
+              >
+                My Resume
+              </a>
             </div>
           </div>
           
